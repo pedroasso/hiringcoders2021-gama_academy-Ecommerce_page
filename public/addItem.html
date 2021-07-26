@@ -1,0 +1,113 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/style.css" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Cadastro de Produtos</title>
+	</head>
+	<body>
+		<header>
+			<h3 class="titulo">Cadastro de Produtos</h3>
+		</header>
+		<main class="section-container background-section section-one">
+			<div class="container produtos">
+				<form id="product_form">
+					<div class="row">
+						<label for="barcode">Código de Barras*</label>
+						<input
+							type="text"
+							id="barcode"
+							name="barcode"
+							placeholder="Código de barras"
+						/>
+					</div>
+					<div class="row">
+						<label for="description">Descrição*</label>
+
+						<input
+							type="text"
+							id="description"
+							name="description"
+							placeholder="Descrição do produto"
+						/>
+					</div>
+					<div class="row">
+						<label for="extra_description">Características*</label>
+
+						<input
+							type="text"
+							id="extra_description"
+							name="extra_description"
+							placeholder="Características do produto"
+						/>
+					</div>
+					<div class="row">
+						<label for="category">Categoria*</label>
+
+						<select id="category" name="category">
+                            <option value="domestic">Periféricos</option>
+							<option value="eletronic">Monitores</option>
+							<option value="auto">Notebooks</option>
+							<option value="smartphone">Rede e WiFi</option>
+							<option value="home">Desktops</option>
+							<option value="fashion">Hardware</option>
+							<option value="other">Software</option>
+						</select>
+					</div>
+					<div class="row">
+						<label for="price">Preço*</label>
+
+						<input
+							type="text"
+							id="price"
+							name="price"
+							placeholder="Preço do produto"
+						/>
+					</div>
+					<div class="row">
+						<label for="amount">Quantidade*</label>
+
+						<input
+							type="text"
+							id="amount"
+							name="amount"
+							placeholder="Quantidade em estoque"
+						/>
+					</div>
+
+					<div class="row">
+						<input
+							class="cadastrar"
+							type="submit"
+							value="Cadastrar"
+						/>
+						<a href="../index.html"
+							><i class="fas fa-arrow-alt-circle-left voltar"></i
+						></a>
+					</div>
+				</form>
+			</div>
+		</main>
+        
+		<footer>
+            <p>Todos os direitos reservados</p>
+            <p>Created by Pedro Laranjeira</p>
+        </footer>
+
+		<script src="../js/script.js" type="text/javascript"></script>
+		<script src="../assets/sweetalert/sweetalert.min.js" type="text/javascript"></script>
+	</body>
+</html>
