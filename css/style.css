@@ -10,7 +10,7 @@ html,body{
 
 /* CSS INDEX  */
 
-.loja img{
+.logo img{
     max-width:500px;
     max-height:350px;
     width: auto;
@@ -38,14 +38,14 @@ html,body{
 }
 
 .section-one{
-    background-image: url(../assets/bg.jpg);
+    background-color: #212529);
 }
 
-.div-client{
+.div-vehicle{
     width: 50%;
 }
 
-.btn-client{
+.btn-vehicle{
     margin-left: 325px;
     margin-top: -100px;
     margin-bottom: 200px;
@@ -59,7 +59,7 @@ html,body{
 	cursor: pointer;
 }
 
-.addclient-img img{
+.addvehicle-img img{
     max-width:300px;
     max-height: 200px;
     width: auto;
@@ -75,11 +75,11 @@ html,body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.div-item{
+.div-export{
     width: 50%;
 }
 
-.btn-item{
+.btn-export{
     margin-left: 120px;
     margin-top: -100px;
     margin-bottom: 200px;
@@ -91,7 +91,7 @@ html,body{
     margin-right: 295px;
 }
 
-.additem-img img{
+.addexport-img img{
     max-width:300px;
     max-height: 200px;
     width: auto;
@@ -124,7 +124,7 @@ html,body{
 }
 
 .section-one{
-    background-image: url(../assets/bg.jpg);
+    background-color: #212529;
 }
 
 input[type="text"],
